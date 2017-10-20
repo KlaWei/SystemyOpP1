@@ -23,9 +23,9 @@ int main() {
         printf("Can't create thread\n");
     }
 
-    //pthread_join(thread1, NULL);
-    //pthread_join(thread2, NULL);
-    //pthread_join(thread3, NULL);
+    pthread_join(thread1, NULL);
+    pthread_join(thread2, NULL);
+    pthread_join(thread3, NULL);
 
     printf("Parent thread\n");
 
